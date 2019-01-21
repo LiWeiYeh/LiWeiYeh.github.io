@@ -40,19 +40,19 @@
           </li>
       </nav>
 
-      <div class="navlogos text-center">
+      <div class="navlogos-desktop text-center">
         <a href="https://github.com/LiWeiYeh">
-          <i class="fab fa-github nav-logo"></i>
+          <i class="m-4 fab fa-github nav-logo"></i>
         </a>
         <a href="https://www.linkedin.com/in/li-wei-yeh/">
-          <i class="fab fa-linkedin-in nav-logo"></i>
+          <i class="m-4 fab fa-linkedin-in nav-logo"></i>
         </a>
         <a href="https://www.instagram.com/liwei.y_/">
-          <i class="fab fa-instagram nav-logo"></i>
+          <i class="m-4 fab fa-instagram nav-logo"></i>
         </a>
         <!-- TODO: add resume -->
-        <a href="#" download="LiWeiYehCV">
-          <i class="fas fa-file-alt nav-logo"></i>
+        <a href="resources\cv.pdf" target="_blank" type='application/pdf'>
+          <i class="m-4 fas fa-file-alt nav-logo"></i>
         </a>
       </div>
     </div>
@@ -225,7 +225,7 @@
                   <div class="col-6 border-left">
                     <div>
                       <h4>Personal Website</h4>
-                      <ul class="list-style-type-none pl-3">
+                      <ul class="pl-3">
                         <li>
                           Made with HTML, Scss and Bootstrap
                         </li>
@@ -255,7 +255,7 @@
                   <div class="col-6 border-left">
                     <div>
                       <h4>Methylium</h4>
-                      <ul class="list-style-type-none pl-3">
+                      <ul class="pl-3">
                         <li>
                           Helped creating an Angular website for visualizing data
                         </li>
@@ -282,7 +282,7 @@
                   <div class="col-6 border-left">
                     <div>
                       <h4>Rotterdam University of Applied Sciences</h4>
-                      <ul class="list-style-type-none pl-3">
+                      <ul class="pl-3">
                         <li>
                           Propaedeutics in the 1st year
                         </li>
@@ -300,8 +300,6 @@
     </div>
   </div>
 
-
-  <!-- TODO: Make a footer for mobile -->
   <footer class="h-40 bg-black">
     <div class="container">
       <div class="row">
@@ -310,20 +308,36 @@
           <h3 class="my-4">Contact Me!</h3>
           <div class="container">
             <div class="row">
+
               <div class="col-6 text-center">
-                <div>
+
+                <div class="d-none d-md-block">
                   <i class="fas fa-hand-point-left"></i>
                   <h5>Social media on the side bar!</h5>
                 </div>
+
+                <div class="navlogos-mobile d-md-none">
+                  <a href="https://github.com/LiWeiYeh">
+                    <i class="m-1 fab fa-github nav-logo"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/li-wei-yeh/">
+                    <i class="m-1 fab fa-linkedin-in nav-logo"></i>
+                  </a>
+                  <a href="https://www.instagram.com/liwei.y_/">
+                    <i class="m-1 fab fa-instagram nav-logo"></i>
+                  </a>
+                  <a href="resources\cv.pdf" target="_blank" type='application/pdf'>
+                    <i class="m-1 fas fa-file-alt nav-logo"></i>
+                  </a>
+                </div>
+
               </div>
               <div class="col-6 text-center">
                 <i class="fas fa-envelope"></i>
                 <h5>Email me</h5>
                 <p class="big-ass-word">liwei_yeh@hotmail.com</p>
               </div>
-              <!-- Fill up space -->
-              <!-- <div class="col-4 text-center">
-              </div> -->
+
             </div>
           </div>
         </div>

@@ -17,8 +17,6 @@ $black: rgb(20, 20, 20);
   }
 }
 
-
-
 @keyframes typing { from { width: 0; } }
 @keyframes blink-caret { 50% { border-color: transparent; } }
 
@@ -40,12 +38,11 @@ body {
       }
     }
 
-    .navlogos {
+    .navlogos-desktop {
       margin-top: 50%;
       a {
         .nav-logo {
           font-size: 3em;
-          margin: 10%;
           color: $grey;
           @include prefix(transition, color 0.2s ease-out);
         }
@@ -60,7 +57,7 @@ body {
   }
 
   #intro {
-    background-image: url("img/Black-White-City.jpg");
+    background-image: url("resources/img/Black-White-City.jpg");
     background-size: cover;
     .intro-content {
       .row{
@@ -85,7 +82,7 @@ body {
   }
 
   #intro-mobile {
-    background-image: url("img/Black-White-Landscape.jpg");
+    background-image: url("resources/img/Black-White-Landscape.jpg");
     background-size: cover;
     .intro-content {
       .intro-text {
@@ -140,6 +137,14 @@ body {
   }
 
   footer {
+    .navlogos-mobile {
+      a {
+        i {
+          color: whitesmoke;
+          font-size: 3em;
+        }
+      }
+    }
     i {
       font-size: 4em;
     }
@@ -206,9 +211,6 @@ p {
 }
 .z-index-max {
   z-index: 999;
-}
-.list-style-type-none {
-  list-style-type: none;
 }
 .big-ass-word {
   word-wrap: break-word;

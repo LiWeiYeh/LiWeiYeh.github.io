@@ -9538,12 +9538,11 @@ body .left-sidebar .navbar-nav a {
 body .left-sidebar .navbar-nav a:hover {
   color: whitesmoke;
 }
-body .left-sidebar .navlogos {
+body .left-sidebar .navlogos-desktop {
   margin-top: 50%;
 }
-body .left-sidebar .navlogos a .nav-logo {
+body .left-sidebar .navlogos-desktop a .nav-logo {
   font-size: 3em;
-  margin: 10%;
   color: #b1adad;
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
@@ -9551,14 +9550,14 @@ body .left-sidebar .navlogos a .nav-logo {
   -o-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
 }
-body .left-sidebar .navlogos a .nav-logo:hover {
+body .left-sidebar .navlogos-desktop a .nav-logo:hover {
   color: whitesmoke;
 }
-body .left-sidebar .navlogos a:hover {
+body .left-sidebar .navlogos-desktop a:hover {
   text-decoration: none;
 }
 body #intro {
-  background-image: url("img/Black-White-City.jpg");
+  background-image: url("resources/img/Black-White-City.jpg");
   background-size: cover;
 }
 body #intro .intro-content .row {
@@ -9587,7 +9586,7 @@ body #intro .intro-content .row .intro-text .intro-name {
   animation: typing 2.5s steps(15, end), blink-caret 0.5s step-end infinite alternate;
 }
 body #intro-mobile {
-  background-image: url("img/Black-White-Landscape.jpg");
+  background-image: url("resources/img/Black-White-Landscape.jpg");
   background-size: cover;
 }
 body #intro-mobile .intro-content .intro-text {
@@ -9625,6 +9624,10 @@ body #about-me .about-me-skills .about-me-skills-logos a i:hover {
 }
 body #about-me .about-me-skills .about-me-skills-logos a:hover {
   text-decoration: none;
+}
+body footer .navlogos-mobile a i {
+  color: whitesmoke;
+  font-size: 3em;
 }
 body footer i {
   font-size: 4em;
@@ -9699,10 +9702,6 @@ p {
 
 .z-index-max {
   z-index: 999;
-}
-
-.list-style-type-none {
-  list-style-type: none;
 }
 
 .big-ass-word {
