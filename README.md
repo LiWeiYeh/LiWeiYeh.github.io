@@ -1,4 +1,4 @@
-#LiWeiYeh.github.io
+# LiWeiYeh.github.io
 
 Github Portfolio Site: [https://liweiyeh.github.io/](https://liweiyeh.github.io/)
 
@@ -6,7 +6,7 @@ This site has been created using HTML, [Bootstrap](https://getbootstrap.com/) an
 
 
 
-### Using this site yourself
+## Using this site yourself
 
 If you'd like to use this portfolio yourself:
 
@@ -24,7 +24,7 @@ $ cd liweiyeh.github.io
 
 
 
-### License
+## License
 
 MIT License
 
