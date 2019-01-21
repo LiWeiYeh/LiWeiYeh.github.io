@@ -9543,7 +9543,12 @@ body .left-sidebar .navbar-nav a {
   -o-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
 }
-body .left-sidebar .navbar-nav a:hover {
+@media (min-width: 992px) {
+  body .left-sidebar .navbar-nav a:hover {
+    color: whitesmoke;
+  }
+}
+body .left-sidebar .navbar-nav a:active {
   color: whitesmoke;
 }
 body .left-sidebar .navlogos-desktop {
