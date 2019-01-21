@@ -19,6 +19,7 @@ $black: rgb(20, 20, 20);
 
 @keyframes typing { from { width: 0; } }
 @keyframes blink-caret { 50% { border-color: transparent; } }
+@keyframes fade-in { from { opacity: 0;} to {opacity: 1;}}
 
 body {
   font-family: $font-raleway;
@@ -87,6 +88,12 @@ body {
     .intro-content {
       .intro-text {
         @include prefix(transform, translateY(35%));
+        .intro-name {
+          @include prefix(animation, (fade-in 2.0s))
+        }
+        .intro-occupation {
+          @include prefix(animation, (fade-in 2.0s))
+        }
       }
     }
   }
@@ -94,13 +101,6 @@ body {
   #about-me {
     .about-me-intro {
       margin: 2%;
-// overflow: hidden;
-//         img {
-//           margin: 2%;
-//           border-radius: 50%;
-//           height: 7.5em;
-//           float: left;
-//         }
       p {
         margin: 2%;
         font-size: 1.7em;
@@ -142,6 +142,9 @@ body {
         i {
           color: whitesmoke;
           font-size: 3em;
+        }
+        i:hover {
+          color: $grey;
         }
       }
     }

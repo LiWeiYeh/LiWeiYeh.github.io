@@ -9521,6 +9521,14 @@ h3 {
     border-color: transparent;
   }
 }
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -9596,6 +9604,20 @@ body #intro-mobile .intro-content .intro-text {
   -o-transform: translateY(35%);
   transform: translateY(35%);
 }
+body #intro-mobile .intro-content .intro-text .intro-name {
+  -webkit-animation: fade-in 2s;
+  -moz-animation: fade-in 2s;
+  -ms-animation: fade-in 2s;
+  -o-animation: fade-in 2s;
+  animation: fade-in 2s;
+}
+body #intro-mobile .intro-content .intro-text .intro-occupation {
+  -webkit-animation: fade-in 2s;
+  -moz-animation: fade-in 2s;
+  -ms-animation: fade-in 2s;
+  -o-animation: fade-in 2s;
+  animation: fade-in 2s;
+}
 body #about-me .about-me-intro {
   margin: 2%;
 }
@@ -9628,6 +9650,9 @@ body #about-me .about-me-skills .about-me-skills-logos a:hover {
 body footer .navlogos-mobile a i {
   color: whitesmoke;
   font-size: 3em;
+}
+body footer .navlogos-mobile a i:hover {
+  color: #b1adad;
 }
 body footer i {
   font-size: 4em;
