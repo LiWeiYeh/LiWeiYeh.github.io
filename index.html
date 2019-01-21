@@ -20,7 +20,7 @@
 <body>
 
   <!-- Dekstop header -->
-  <div class="col-md-2 position-fixed h-100vh d-none d-md-block bg-black z-index-max">
+  <div class="col-lg-2 position-fixed h-100vh d-none d-lg-block bg-black z-index-max">
     <div class="left-sidebar h-100vh">
       <nav>
         <ul class="navbar-nav">
@@ -59,11 +59,11 @@
   </div>
 
   <!-- Desktop intro -->
-  <div class="intro w-100 h-100vh darken-overlay d-none d-md-block" id="intro">
+  <div class="w-100 h-100vh darken-overlay d-none d-lg-block" id="intro">
     <div class="intro-content text-white darkened-div h-100">
       <div class="row">
-        <div class="col-md-2"></div>
-        <div class="intro-text col-md-10 h-100">
+        <div class="col-lg-2"></div>
+        <div class="intro-text col-lg-10 h-100">
           <div class="w-100 text-center">
             <h1 class="intro-name d-inline-block font-inconsalita">Hi, I'm Li-Wei</h1>
           </div>
@@ -74,7 +74,7 @@
   </div>
 
   <!-- Mobile intro -->
-  <div class="intro-mobile p-0 w-100 h-100vh d-md-none darken-overlay" id="intro-mobile">
+  <div class="p-0 w-100 h-100vh d-lg-none darken-overlay" id="intro-mobile">
     <div class="intro-content text-white darkened-div w-100vw">
       <div class="intro-text">
         <div class="w-100 text-center py-4">
@@ -85,11 +85,11 @@
     </div>
   </div>
 
+  <!-- Main -->
   <div class="container">
     <div class="main row">
-      <div class="col-md-2 col-sm-0">
-      </div>
-      <div class="col-md-10 col-sm-12 px-0">
+      <div class="col-lg-2 col-sm-0"></div>
+      <div class="col-lg-10 col-sm-12 px-0">
         <div class="my-4" id="about-me">
           <h3>About Me</h3>
           <div class="container">
@@ -103,33 +103,33 @@
 
             <div class="row">
 
-              <div class="about-me-profile col-md-5 offset-md-1 col-sm-12 mb-5">
+              <div class="about-me-profile col-lg-5 offset-lg-1 col-sm-12 mb-5">
                 <h4 class="text-center">Profile</h4>
                 <div class="container">
                   <div class="row">
-                    <div class="col-md-4 col-5 border-right text-right">
+                    <div class="col-lg-4 col-5 border-right text-right">
                       <p><b>Full name</b></p>
                     </div>
-                    <div class="col-md-8 col-7">
+                    <div class="col-lg-8 col-7">
                       <p>Li-Wei Yeh</p>
                     </div>
-                    <div class="col-md-4 col-5 border-right text-right">
+                    <div class="col-lg-4 col-5 border-right text-right">
                       <p><b>Age</b></p>
                     </div>
-                    <div class="col-md-8 col-7 text-darkgrey">
+                    <div class="col-lg-8 col-7 text-darkgrey">
                       <p>19</p>
                     </div>
-                    <div class="col-md-4 col-5 border-right text-right">
+                    <div class="col-lg-4 col-5 border-right text-right">
                       <p><b>Certificates</b></p>
                     </div>
-                    <div class="col-md-8 col-7">
+                    <div class="col-lg-8 col-7">
                       <p>Propaedeutics in Computer Science</p>
                     </div>
 
-                    <div class="col-md-4 col-5 border-right text-right">
+                    <div class="col-lg-4 col-5 border-right text-right">
                       <p><b>Hobbies</b></p>
                     </div>
-                    <div class="col-md-8 col-7 text-darkgrey">
+                    <div class="col-lg-8 col-7 text-darkgrey">
                       <p>Programming</p>
                       <p>Exercising</p>
                       <p>Music</p>
@@ -139,7 +139,7 @@
                 </div>
               </div>
 
-              <div class="col-md-5 col-12 about-me-skills">
+              <div class="col-lg-5 col-12 about-me-skills">
                 <h4 class="text-center">Skills</h4>
                 <h5 class="text-center">
                   Experienced
@@ -302,20 +302,22 @@
   <footer class="h-40 bg-black">
     <div class="container">
       <div class="row">
-        <div class="col-md-2 col-0"></div>
-        <div class="col-md-10 col-12 text-whitesmoke">
+        <div class="col-lg-2 col-0"></div>
+        <div class="col-lg-10 col-12 text-whitesmoke">
           <h3 class="my-4">Contact Me!</h3>
           <div class="container">
             <div class="row">
 
               <div class="col-6 text-center">
 
-                <div class="d-none d-md-block">
+                <!-- Desktop only -->
+                <div class="d-none d-lg-block">
                   <i class="fas fa-hand-point-left"></i>
                   <h5>Social media on the side bar!</h5>
                 </div>
 
-                <div class="navlogos-mobile d-md-none">
+                <!-- Mobile only -->
+                <div class="navlogos-mobile d-lg-none">
                   <a href="https://github.com/LiWeiYeh">
                     <i class="m-1 fab fa-github nav-logo"></i>
                   </a>

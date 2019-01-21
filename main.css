@@ -9530,7 +9530,7 @@ h3 {
   }
 }
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif, sans-serif, Arial, Helvetica;
 }
 body .left-sidebar .navbar-nav a {
   margin: 10px;
@@ -9543,7 +9543,7 @@ body .left-sidebar .navbar-nav a {
   -o-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
 }
-@media (min-width: 992px) {
+@media (hover: hover) {
   body .left-sidebar .navbar-nav a:hover {
     color: whitesmoke;
   }

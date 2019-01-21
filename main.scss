@@ -22,7 +22,7 @@ $black: rgb(20, 20, 20);
 @keyframes fade-in { from { opacity: 0;} to {opacity: 1;}}
 
 body {
-  font-family: $font-raleway;
+  font-family: $font-raleway, sans-serif, Arial, Helvetica;
 
   .left-sidebar {
 
@@ -34,8 +34,8 @@ body {
         color: $grey;
         @include prefix(transition, color 0.2s ease-out)
       }
-      @media (min-width: 992px) {
-        a:hover {
+      @media (hover: hover) {
+        a:hover{
           color: whitesmoke;
         }
       }
