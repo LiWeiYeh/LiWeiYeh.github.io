@@ -9663,6 +9663,65 @@ body footer i {
   font-size: 4em;
 }
 
+body .guitar-nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+body .guitar-nav a {
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #b1adad;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+@media (hover: hover) {
+  body .guitar-nav a:hover {
+    color: whitesmoke;
+  }
+}
+body .guitar-nav a:active {
+  color: whitesmoke;
+}
+body .songs-list {
+  padding-top: 7em;
+}
+
+body .guitar-nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+body .guitar-nav a {
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #b1adad;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+@media (hover: hover) {
+  body .guitar-nav a:hover {
+    color: whitesmoke;
+  }
+}
+body .guitar-nav a:active {
+  color: whitesmoke;
+}
+body .tabs {
+  padding-top: 7em;
+}
+body .tabs .tab {
+  font-family: "Inconsalita", monospace;
+}
+
 h1 {
   font-size: 5em;
 }

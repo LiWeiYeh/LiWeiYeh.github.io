@@ -159,6 +159,65 @@ body {
   }
 }
 
+// Guitar css main
+body {
+  .guitar-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    a {
+      text-decoration: none;
+      font-size: 1.4em;
+      font-weight: 700;
+      color: $grey;
+      @include prefix(transition, color 0.2s ease-out)
+    }
+    @media (hover: hover) {
+      a:hover {
+        color: whitesmoke;
+      }
+    }
+    a:active {
+      color: whitesmoke;
+    }
+  }
+
+  .songs-list {
+    padding-top: 7em;
+  }
+}
+
+// Guitar css songs tabs
+body {
+  .guitar-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    a {
+      text-decoration: none;
+      font-size: 1.4em;
+      font-weight: 700;
+      color: $grey;
+      @include prefix(transition, color 0.2s ease-out)
+    }
+    @media (hover: hover) {
+      a:hover {
+        color: whitesmoke;
+      }
+    }
+    a:active {
+      color: whitesmoke;
+    }
+  }
+
+  .tabs {
+    padding-top: 7em;
+
+    .tab {
+      font-family: $font-inconsalita;
+    }
+  }
+}
 
 // change preset elements
 h1 {

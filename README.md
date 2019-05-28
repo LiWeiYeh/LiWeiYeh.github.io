@@ -4,7 +4,12 @@ Github Portfolio Site: [https://liweiyeh.github.io/](https://liweiyeh.github.io/
 
 This site has been created using HTML, [Bootstrap](https://getbootstrap.com/) and CSS (converted from [SCSS](https://sass-lang.com/)).
 
+## Scss
 
+Run scss for compiling to css
+```markdown
+sass --watch main.scss main.css
+```
 
 ## Using this site yourself
 
