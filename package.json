@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/LiWeiYeh/LiWeiYeh.github.io#readme",
   "dependencies": {
-    "bootstrap": "^4.2.1"
+    "bootstrap": "^4.3.1"
   }
 }
