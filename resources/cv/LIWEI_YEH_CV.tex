@@ -47,7 +47,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-	\vspace{-4pt}\scshape\raggedright\large
+	\vspace{10pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -62,7 +62,7 @@
 }
 
 \newcommand{\resumeSubheading}[4]{
-	\vspace{-2pt}\item
+	\vspace{7pt}\item
 	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
 		\textbf{#1} & #2 \\
 		\textit{\small#3} & \textit{\small #4} \\
@@ -77,7 +77,7 @@
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-	\item
+	\vspace{7pt}\item
 	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
 		\small#1 & #2 \\
 	\end{tabular*}\vspace{-7pt}
@@ -194,9 +194,9 @@
 	\resumeSubHeadingListStart
 
 	\resumeProjectHeading
-	{\textbf{liweiyeh.github.io} $|$ \emph{HTML, SCSS, Bootstrap}}{January 2019 -- Present}
+	{\textbf{\href{https://liweiyeh.github.io/}{liweiyeh.github.io}} $|$ \emph{HTML, SCSS, Bootstrap}}{January 2019 -- Present}
 	\resumeItemListStart
-	\resumeItem{Personal single-page website created as a resume in the form of a web application}
+	\resumeItem{Personal single-page website created as a resume in the form of a \\ web application}
 	\resumeItemListEnd
 	
 	\resumeProjectHeading
@@ -204,7 +204,7 @@
 	\resumeItemListStart
 	\resumeItem{Created a neural network that aims to increase image resolution, \\whilst preserving image quality }
 	\resumeItem{Used the SRCNN model as a guideline}
-	\resumeItem{Scores better evaluation metrics compared to the SRCNN model}
+	\resumeItem{Scores better on evaluation metrics compared to the SRCNN model}
 	\resumeItemListEnd
 	
 	\resumeSubHeadingListEnd

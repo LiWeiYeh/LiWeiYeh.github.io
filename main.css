@@ -9769,6 +9769,10 @@ p {
   color: #888;
 }
 
+.text-link {
+  color: black;
+}
+
 .bg-black {
   background-color: #141414;
 }
