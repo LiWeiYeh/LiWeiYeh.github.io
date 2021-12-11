@@ -1,0 +1,226 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\small#1 & #2 \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+	
+	%----------HEADING----------
+	
+	
+	\begin{center}
+		\textbf{\Huge \scshape Li-Wei Yeh} \\ \vspace{1pt}
+		\small \href{mailto:liwei_yeh@hotmail.com}{\underline{liwei\_yeh@hotmail.com}} $|$ 
+		\href{https://www.linkedin.com/in/li-wei-yeh/}{\underline{linkedin.com/in/li-wei-yeh}} $|$
+		\href{https://github.com/LiWeiYeh/}{\underline{github.com/liweiyeh}}
+	\end{center}
+	
+	
+	%-----------EDUCATION-----------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Utrecht University}{Utrecht, The Netherlands}
+	{Pre-Master in Computer Science}{September 2021 -- Expected February 2022}
+%	\resumeItemListStart
+%	\resumeItem{WAM/GPA: X}
+%	\resumeItem{Award/Achievement/Involvement 1}
+%	\resumeItem{Award/Achievement/Involvement 2}
+%	\resumeItem{Award/Achievement/Involvement 3}
+%	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Rotterdam University of Applied Sciences}{Rotterdam, The Netherlands}
+	{Bachelor of Science in Computer Science}{September 2016 -- September 2021}
+	\resumeItemListStart
+	\resumeItem{Minored in Artificial Intelligence}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{National Taipei University of Technology}{Taipei, Taiwan}
+	{Fall Exchange Program}{September 2019 -- January 2020}
+	\resumeSubHeadingListEnd
+	
+	%-----------EXPERIENCE-----------
+	\section{Experience}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{Part-Time Developer}{July 2021 – Present}
+	{Methylium B.V.}{The Hague, The Netherlands}
+	\resumeItemListStart
+	\resumeItem{Responsible for both front-end and back-end work}
+	\resumeItem{Addressed bugs and possible improvements in existing applications using \\Kanban boards to prioritize requirements}
+	\resumeItem{Part of the scrum team, having regular daily standups and sprint reviews}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Software Engineering Intern}{September 2020 -- January 2021}
+	{ilionx}{Utrecht, The Netherlands}
+	\resumeItemListStart
+	\resumeItem{Created a recommender system in the form of an API}
+	\resumeItem{Used Kanban to prioritize requirements and communicate progress}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Software Engineering Intern}{September 2020 -- January 2021}
+	{Methylium B.V.}{The Hague, The Netherlands}
+	\resumeItemListStart
+	\resumeItem{Visualizing data in front-end development}
+	\resumeItem{Part of the scrum team}
+	\resumeItemListEnd
+
+	\resumeSubHeadingListEnd
+	
+	%-----------COMMUNITY AND LEADERSHIP-----------
+%	\section{Community \& Leadership}
+%	\resumeSubHeadingListStart
+%	
+%	\resumeSubheading
+%	{Role 1}{November 2021 – Present}
+%	{Club/Organization 1}{Melbourne, VIC}
+%	\resumeItemListStart
+%	\resumeItem{Job description/Award/Achievement 1}
+%	\resumeItem{Job description/Award/Achievement 2}
+%	\resumeItem{Job description/Award/Achievement 3}
+%	\resumeItemListEnd
+%	
+%	\resumeSubheading
+%	{Role 2}{November 2021 – Present}
+%	{Club/Organization 2}{Melbourne, VIC}
+%	\resumeItemListStart
+%	\resumeItem{Job description/Award/Achievement 1}
+%	\resumeItem{Job description/Award/Achievement 2}
+%	\resumeItem{Job description/Award/Achievement 3}
+%	\resumeItemListEnd
+%	
+%	\resumeSubHeadingListEnd
+	
+	%-----------PROJECTS-----------
+	\section{Projects}
+	\resumeSubHeadingListStart
+
+	\resumeProjectHeading
+	{\textbf{liweiyeh.github.io} $|$ \emph{HTML, SCSS, Bootstrap}}{January 2019 -- Present}
+	\resumeItemListStart
+	\resumeItem{Personal single-page website created as a resume in the form of a web application}
+	\resumeItemListEnd
+	
+	\resumeProjectHeading
+	{\textbf{Super Resolution} $|$ \emph{Python, Tensorflow/Keras, OpenCV}}{March 2021 -- August 2021}
+	\resumeItemListStart
+	\resumeItem{Created a neural network that aims to increase image resolution, \\whilst preserving image quality }
+	\resumeItem{Used the SRCNN model as a guideline}
+	\resumeItem{Scores better evaluation metrics compared to the SRCNN model}
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+	
+	
+	%
+	%-----------TECHNICAL SKILLS-----------
+	\section{Technical Skills}
+	\begin{itemize}[leftmargin=0.15in, label={}]
+		\small{\item{
+				\textbf{Languages}{: C\#, TypeScript, Python, \LaTeX} \\
+				\textbf{Frameworks}{: Angular, .NET} \\
+				\textbf{Developer Tools}{: Git, Azure DevOps} \\
+		}}
+	\end{itemize}
+	
+	
+	%-------------------------------------------
+\end{document}
