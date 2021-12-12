@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.10)  11 DEC 2021 15:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.10)  12 DEC 2021 01:01
 entering extended mode
 **./LIWEI_YEH_CV.tex
 (LIWEI_YEH_CV.tex
@@ -380,13 +380,13 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `LIWEI_YEH_CV.out' has not changed.
-(rerunfilecheck)             Checksum: 8178769A591DAE54593BE5DC5893BD68;390.
+(rerunfilecheck)             Checksum: 8A4ECCAD7E30405CF9B16C2B0B2B32DF;496.
  ) 
 Here is how much of TeX's memory you used:
- 9892 strings out of 478927
- 150364 string characters out of 2853008
+ 9894 strings out of 478927
+ 150384 string characters out of 2853008
  492839 words of memory out of 3000000
- 27624 multiletter control sequences out of 15000+600000
+ 27625 multiletter control sequences out of 15000+600000
  409022 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,66p,243b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -399,9 +399,9 @@ fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Levi/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Levi/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Levi/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on LIWEI_YEH_CV.pdf (1 page, 114217 bytes).
+Output written on LIWEI_YEH_CV.pdf (1 page, 115762 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
