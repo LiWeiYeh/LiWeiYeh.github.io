@@ -61,25 +61,10 @@
 	}
 }
 
-\newcommand{\resumeSubheadingEducation}[4]{
-	\vspace{4pt}\item
-	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-		\textbf{#1}\\
-		\textit{\small#3} & \textit{\small #4} \\
-	\end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubheadingExperience}[4]{
+\newcommand{\resumeSubheading}[4]{
 	\vspace{4pt}\item
 	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
 		\textbf{#1} & #2 \\
-		\textit{\small#3} & \textit{\small #4} \\
-	\end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubheadingg}[4]{
-	\vspace{-4pt}\item
-	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
 		\textit{\small#3} & \textit{\small #4} \\
 	\end{tabular*}\vspace{-7pt}
 }
@@ -120,106 +105,49 @@
 		\href{https://www.linkedin.com/in/li-wei-yeh/}{\underline{linkedin.com/in/li-wei-yeh}} $|$
 		\href{https://github.com/LiWeiYeh/}{\underline{github.com/liweiyeh}}
 	\end{center}
-
+	
 	
 	
 	%-----------EXPERIENCE-----------
 	\section{Experience}
 	\resumeSubHeadingListStart
 	
-	\resumeSubheadingExperience
-	{Junior Technical Consultant}{September 2022 – Present}
+	\resumeSubheading
+	{Software Engineer Consultant}{Septermber 2022 - Present}
 	{Ordina}{Nieuwegein, The Netherlands}
-%	\resumeItemListStart
-%	\resumeItem{Responsible for both front-end and back-end work}
-%	\resumeItem{Addressed bugs and possible improvements in existing applications using \\Kanban boards to prioritize requirements}
-%	\resumeItem{Part of the scrum team, having daily standups and sprint reviews}
-%	\resumeItemListEnd
 	
-	\resumeSubheadingExperience
-	{Part-Time Developer}{July 2021 – September 2022}
+	\resumeSubheading
+	{Developer}{July 2021 – August 2022}
 	{Methylium B.V.}{The Hague, The Netherlands}
 	\resumeItemListStart
-	\resumeItem{Responsible for both front-end and back-end work}
-	\resumeItem{Addressed bugs and possible improvements in existing applications using \\Kanban boards to prioritize requirements}
+	\resumeItem{Full-stack developer, responsible for both front-end and back-end work}
+	\resumeItem{Implemented features using Angular, and .NET}
+	\resumeItem{Addressed bugs and possible improvements in existing applications \\ using Kanban boards}
 	\resumeItemListEnd
 	
-	\resumeSubheadingExperience
-	{Software Engineering Intern}{September 2020 -- January 2021}
+	\resumeSubheading
+	{Software Engineer Intern}{September 2020 -- January 2021}
 	{ilionx}{Utrecht, The Netherlands}
 	\resumeItemListStart
-	\resumeItem{Created a recommender system in the form of an API in .NET}
+	\resumeItem{Created a recommender system in the form of a .NET API}
+	\resumeItem{Applied machine learning techniques to the recommender system}
 	\resumeItemListEnd
 	
-	\resumeSubheadingExperience
-	{Software Engineering Intern}{September 2018 -- January 2019}
+	\resumeSubheading
+	{Software Engineer Intern}{September 2018 -- January 2019}
 	{Methylium B.V.}{The Hague, The Netherlands}
 	\resumeItemListStart
-	\resumeItem{Visualizing data in front-end development}
+	\resumeItem{Visualizing data in front-end development using Angular}
 	\resumeItemListEnd
-
+	
 	\resumeSubHeadingListEnd
 	
 	
 	
-	%-----------EDUCATION-----------
-	\section{Education}
-	\resumeSubHeadingListStart
-	\resumeSubheadingEducation
-	{Utrecht University}{The Netherlands}
-	{Master of Science in Computer Science}{February 2022 -- Expected February 2025}
-	\resumeItemListStart
-	\resumeItem{Algorithm Design and Analysis Track}
-	\resumeItemListEnd
-	
-	\resumeSubheadingg
-	{}{}
-	{Pre-Master in Computer Science}{September 2021 -- February 2022}
-	
-	\resumeSubheadingEducation
-	{Rotterdam University of Applied Sciences}{The Netherlands}
-	{Bachelor of Science in Computer Science}{September 2016 -- September 2021}
-	\resumeItemListStart
-	\resumeItem{Minored in Artificial Intelligence}
-	\resumeItemListEnd
-	
-	\resumeSubheadingEducation
-	{National Taipei University of Technology}{Taiwan}
-	{Fall Exchange Program}{September 2019 -- January 2020}
-	\resumeSubHeadingListEnd
-
-
-	
-	%-----------COMMUNITY AND LEADERSHIP-----------
-%	\section{Community \& Leadership}
-%	\resumeSubHeadingListStart
-%	
-%	\resumeSubheading
-%	{Role 1}{November 2021 – Present}
-%	{Club/Organization 1}{Melbourne, VIC}
-%	\resumeItemListStart
-%	\resumeItem{Job description/Award/Achievement 1}
-%	\resumeItem{Job description/Award/Achievement 2}
-%	\resumeItem{Job description/Award/Achievement 3}
-%	\resumeItemListEnd
-%	
-%	\resumeSubheading
-%	{Role 2}{November 2021 – Present}
-%	{Club/Organization 2}{Melbourne, VIC}
-%	\resumeItemListStart
-%	\resumeItem{Job description/Award/Achievement 1}
-%	\resumeItem{Job description/Award/Achievement 2}
-%	\resumeItem{Job description/Award/Achievement 3}
-%	\resumeItemListEnd
-%	
-%	\resumeSubHeadingListEnd
-	
-	
-	
-	%-----------PROJECTS-----------
+		%-----------PROJECTS-----------
 	\section{Projects}
 	\resumeSubHeadingListStart
-
+	
 	\resumeProjectHeading
 	{\textbf{\href{https://liweiyeh.github.io/}{liweiyeh.github.io}} $|$ \emph{HTML, SCSS, Bootstrap}}{January 2019 -- Present}
 	\resumeItemListStart
@@ -236,24 +164,40 @@
 	
 	
 	
-	%-----------TECHNICAL SKILLS-----------
-	\section{Technical Skills}
+	%-----------EDUCATION-----------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Utrecht University}{Utrecht, The Netherlands}
+	{Master of Science in Computer Science}{February 2022 -- Expected September 2025}
+	\resumeItemListStart
+	\resumeItem{Algorithm Design and Analysis Track}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Rotterdam University of Applied Sciences}{Rotterdam, The Netherlands}
+	{Bachelor of Science in Computer Science}{September 2016 -- August 2021}
+	\resumeItemListStart
+	\resumeItem{Minored in Artificial Intelligence}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{National Taipei University of Technology}{Taipei, Taiwan}
+	{Fall Exchange Program}{September 2019 -- January 2020}
+	\resumeSubHeadingListEnd
+	
+	
+	
+	%-----------SKILLS-----------
+	\section{Skills}
 	\begin{itemize}[leftmargin=0.15in, label={}]
 		\small{\item{
-				\textbf{Programming Languages}{: C\#, TypeScript, Python} \\
-				\textbf{Frameworks}{: Angular, .NET} \\
-				\textbf{Developer Tools}{: Git, Azure DevOps} \\
-		}}
-	\end{itemize}
-	
-	
-	
-	%-----------OTHER SKILLS-----------
-	\section{Other Skills}
-	\begin{itemize}[leftmargin=0.15in, label={}]
-		\small{\item{
+				\textbf{Programming Languages}{: C\#, TypeScript, Python, SQL} \\
+				\textbf{Tools \& Frameworks}{: Angular, .NET, Git, Azure, SQLServer, HTML/CSS} \\ 
+				\textbf{Others}{: Scrum, Agile, Kanban, DevOps, Full-stack development, OOP, MVC} \\
 				\textbf{Languages}{: English, Dutch} \\
 		}}
 	\end{itemize}
 	%-------------------------------------------
+	
 \end{document}
