@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.10)  19 FEB 2023 23:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.10)  18 APR 2023 00:51
 entering extended mode
 **./LIWEI_YEH_CV.tex
 (LIWEI_YEH_CV.tex
@@ -388,13 +388,13 @@ Package rerunfilecheck Info: File `LIWEI_YEH_CV.out' has not changed.
 (rerunfilecheck)             Checksum: 90B59F8C9D483F1276129EAE9BC5B864;440.
  ) 
 Here is how much of TeX's memory you used:
- 9895 strings out of 478927
- 150390 string characters out of 2853008
+ 9897 strings out of 478927
+ 150409 string characters out of 2853008
  494839 words of memory out of 3000000
- 27625 multiletter control sequences out of 15000+600000
- 409022 words of font info for 49 fonts, out of 8000000 for 9000
+ 27626 multiletter control sequences out of 15000+600000
+ 409320 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,66p,243b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,66p,243b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Levi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb><C:/Users/Levi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb><C:/Users/Levi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -403,7 +403,7 @@ ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/Levi/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Levi/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Levi/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on LIWEI_YEH_CV.pdf (2 pages, 111114 bytes).
+Output written on LIWEI_YEH_CV.pdf (2 pages, 110655 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
